@@ -56,3 +56,4 @@ if __name__ == '__main__':
     x = Complex(2, 1)
     y = Complex(5, 6)
     print(*map(str, [x + y, x - y, x * y, x / y, x.mod(), y.mod()]), sep='\n')
+    # TODO

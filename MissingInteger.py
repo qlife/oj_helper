@@ -1,8 +1,8 @@
-import bisect
-import collections
+#! /usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 
-class Solution():
+class Solution:
     @staticmethod
     def sol(A):
         s = frozenset([a for a in A if a > 0])
