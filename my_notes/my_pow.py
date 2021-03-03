@@ -5,6 +5,8 @@ def my_pow(x, y):
         return 1
     elif x == 0 or x == 1 or y == 1:
         return x
+    elif y < 0:
+        return 1.0 / my_pow(x, -y)
     elif x < 0:
         return (0 - my_pow(-x, y)) if 1 == y % 2 else my_pow(-x, y)
 
